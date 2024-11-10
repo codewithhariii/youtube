@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    overflow-y: hidden;
+
+    }
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+    
+}
+
+img {
+
+    cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    text-align: center;
+    margin: 5px;
+    padding: 7px;
+
+
+}
+
+nav {
+
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: white; 
+    position: static;
+    top: 0;
+}
+
+
+.nav-left img {
+    height: 20px;
+    width: 70px;
+    margin-left: 0;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.nav-right img {
+
+    width: 20px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.nav-right .logo {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.nav-middle .flexsearch {
+    color: #ccc;
+    border: 1px solid;
+    margin-right: 150px;
+    padding: 5px 18px;
+    border-radius: 50px;
+    margin-top: 10px;
+
+}
+
+.nav-middle .flexsearch input {
+    width: 550px;
+    border: 0;
+    outline: 0;
+    padding-bottom: 5px ;
+    background: ;
+}
+
+.nav-middle .flexsearch img {
+    width: 18px;
+    margin-top: 2px;
+}
+
+
+.sidebar {
+
+    background-color: white;
+    width: 14.5%;
+    height: 100vh;
+    position: fixed;
+    top: 75px;
+    padding-left: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    overflow-y: scroll;
+
+}
+
+
+.shortcutlink a img {
+    color: #ccc;
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+
+}
+
+.shortcutlink a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    padding: 10px;
+
+}
+
+.shortcutlink a:hover {
+    width: auto;
+    background-color: #e0d9d967;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+
+}
+
+
+
+.shortcutlink a:first-child {
+    color: #ed3833;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 2px;
+    background: #ccccccad;
+    width: 100%;
+}
+
+.subscribed h3 {
+    font-family: "Roboto", "Arial", sans-serif;
+    padding: 6%;
+    width: 192px;
+    height: 22px;
+
+}
+
+.subscribed a img {
+    color: green;
+    width: 20px;
+    margin-right: 0px;
+    border-radius: 50%;
+    padding: 10px;
+
+
+}
+
+.subscribed a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: fit-content;
+    font-family: "Roboto", "Arial", sans-serif;
+        line-height: 2rem;
+
+}
+
+.subscribed a:hover {
+
+    width: auto;
+    background-color: #e0d9d962;
+    border-radius: 5px;
+
+}
+
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+   overflow-y:scroll  ;
+    padding-right: 100px;
+}
+
+.video-section {
+
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #ddd;
+    background: #f9f9f9;
+    margin-left: 150px;
+    column-gap: normal;
+}
+
+.container {
+    
+    margin-left: 100px;
+
+}
+
+
+
+.video {
+
+    width: 350px;
+    margin-bottom: 60px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    
+    cursor: pointer;
+     
+}
+
+
+.thumnail:hover{
+    transform: scale(1.03);
+
+}
+button{
+text-decoration: none;
+}
+
+.thumnail {
+    overflow-y: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+.thumnail img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+
+}
+
+.details {
+
+    margin-top: 5px;
+    padding: 5px;
+
+}
+
+.logo img {
+
+    margin-top: 7px;
+    width: 68px;
+    height: 35px;
+    border-radius: 50%;
+
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding: 0;
+}
+
+.title h5 {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #000;
+    margin-bottom: 4px;
+    line-height: 18px;
+    margin-left: 5px;
+
+}
+
+.title span {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: small;
+    line-height: 20px;
+    color: #5a5a5a;
+
+}
+
+.title div img {
+    height: 15px;
+    width: 15px;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.one a {
+    margin-top: 4.5px;
+}
+
+.details .logo {
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media (max-width :1001px)
+{
+
+.nav-flexdiv{
+
+}
+}
